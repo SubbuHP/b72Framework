@@ -11,12 +11,12 @@
       <![CDATA[Err Msg is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-06T22:56:40 GMT-04:00" name="Default suite" finished-at="2023-05-06T22:57:00 GMT-04:00" duration-ms="20513">
+  <suite started-at="2023-05-06T23:04:37 GMT-04:00" name="Default suite" finished-at="2023-05-06T23:05:00 GMT-04:00" duration-ms="23474">
     <groups>
     </groups>
-    <test started-at="2023-05-06T22:56:40 GMT-04:00" name="Default test" finished-at="2023-05-06T22:57:00 GMT-04:00" duration-ms="20513">
+    <test started-at="2023-05-06T23:04:37 GMT-04:00" name="Default test" finished-at="2023-05-06T23:05:00 GMT-04:00" duration-ms="23474">
       <class name="script.InValidLogin">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.InValidLogin@7f0eb4b4]" started-at="2023-05-06T22:56:40 GMT-04:00" name="preCondition" finished-at="2023-05-06T22:56:56 GMT-04:00" duration-ms="15856" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.InValidLogin@7f0eb4b4]" started-at="2023-05-06T23:04:37 GMT-04:00" name="preCondition" finished-at="2023-05-06T23:04:54 GMT-04:00" duration-ms="17341" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,14 +43,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testInvalidLogin()[pri:2, instance:script.InValidLogin@7f0eb4b4]" started-at="2023-05-06T22:56:56 GMT-04:00" name="testInvalidLogin" finished-at="2023-05-06T22:57:00 GMT-04:00" duration-ms="4085" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InValidLogin@7f0eb4b4]" started-at="2023-05-06T23:04:54 GMT-04:00" name="testInvalidLogin" finished-at="2023-05-06T23:04:59 GMT-04:00" duration-ms="5238" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Err Msg is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.InValidLogin@7f0eb4b4]" started-at="2023-05-06T22:57:00 GMT-04:00" name="postCondition" finished-at="2023-05-06T22:57:00 GMT-04:00" duration-ms="454" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.InValidLogin@7f0eb4b4]" started-at="2023-05-06T23:04:59 GMT-04:00" name="postCondition" finished-at="2023-05-06T23:05:00 GMT-04:00" duration-ms="786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
