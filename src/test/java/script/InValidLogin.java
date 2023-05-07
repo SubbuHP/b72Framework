@@ -13,8 +13,12 @@ public class InValidLogin extends BaseTest
     public void testInvalidLogin()
     {
     
-     String un = Excel.getData(XL_PATH, "InvalidLogin", 1, 0);
-     String pw = Excel.getData(XL_PATH, "InvalidLogin", 1, 1);
+     int rc = Excel.getRowCount(XL_PATH,"InvalidLogin");
+     for(int i=1;i<=rc;i++)
+     {
+     
+    	String un = Excel.getData(XL_PATH, "InvalidLogin", 1, 0);
+        String pw = Excel.getData(XL_PATH, "InvalidLogin", 1, 1);
     	
     	
       //1:Enter Invalid UN
@@ -27,5 +31,6 @@ public class InValidLogin extends BaseTest
       //Err Msg Should Be Displayed
       boolean result = loginPage.verifyErrMsgIsDisplayed(wait);
       Assert.assertTrue(result);
+    }
     }
 }
