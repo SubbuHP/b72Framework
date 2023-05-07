@@ -25,7 +25,7 @@ public class Excel {
 	}
 
 
-	public static int getRowCount(String path,String sheet,int r,int c)
+	public static int getRowCount(String path,String sheet)
 
 	{
 		int rc=0;
