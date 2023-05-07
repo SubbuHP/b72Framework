@@ -43,6 +43,7 @@ public class LoginPage {
 		loginBTN.click();
 	}
 	
+	
 	public boolean verifyErrMsgIsDisplayed(WebDriverWait wait) 
 	{
 		
